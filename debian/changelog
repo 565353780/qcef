@@ -1,0 +1,82 @@
+qcef (1.1.4.4) stable; urgency=medium
+
+  * Move cef to submodule
+  * Update cef binary package
+
+ -- Liu Lang <gsushzhsosgsu@gmail.com>  Thu, 29 Mar 2018 16:20:02 +0800
+
+qcef (1.1.4.3) stable; urgency=medium
+
+  * Add _NET_WM_PID flag to chrome wrapper window
+
+ -- Liu Lang <gsushzhsosgsu@gmail.com>  Wed, 21 Mar 2018 15:13:01 +0800
+
+qcef (1.1.4.2) stable; urgency=medium
+
+  * Add NativeEventFilter to handle mouse press event
+  * Add window flag to chrome windows
+  * Remove QCEF_EXTERNAL_MESSAGE_PUMP flag
+
+ -- Liu Lang <gsushzhsosgsu@gmail.com>  Wed, 21 Mar 2018 09:20:27 +0800
+
+qcef (1.1.4.1) stable; urgency=medium
+
+  * Update cef x86-64 tarball
+
+ -- Liu Lang <gsushzhsosgsu@gmail.com>  Fri, 16 Mar 2018 11:48:58 +0800
+
+qcef (1.1.4) stable; urgency=medium
+
+  * Update cef to 60.0.3112.113
+  * Auto update cef window position on move event
+  * Implement OnClipboardUpdated() methods in CefClientHandler
+  * Support QShortcut
+  * Replace QWindow with XWindow
+  * Support updating browser locale
+  * Support HiDPI screen
+
+ -- Liu Lang <gsushzhsosgsu@gmail.com>  Thu, 15 Mar 2018 15:53:21 +0800
+
+qcef (1.1.3) stable; urgency=medium
+
+  * Fix libqcef library path error
+  * Update package dependency
+  * Support specifying override-path at runtime
+
+ -- Liu Lang <gsushzhsosgsu@gmail.com>  Fri, 17 Nov 2017 13:09:47 +0800
+
+qcef (1.1.2) stable; urgency=medium
+
+  * WebView: set update-geometry-timer as single shot
+  * Add QCEF_EXTERNAL_MESSAGE_PUMP option
+  * Remove EMBED_WEBCHANNEL option
+  * Remove QCEF_OVERRIDE_PATH option
+
+ -- LiuLang <gsushzhsosgsu@gmail.com>  Wed, 10 Nov  2017 17:01:31 +0800
+
+qcef (1.1.0) stable; urgency=medium
+
+  * Add event filter to web view
+  * Add iframe demo
+  * Add internal MessagePumpHandler
+  * Add localstorage demo
+  * Add redirect page demo
+  * Add web notification API
+  * Support appending command line arguments
+  * Support embed qwebchannel library
+  * Support filetype filter in file-chooser-dialog
+  * Support network proxy
+  * Support refreshing web page
+  * Support zoom-in / zoom-out web page
+  * Fix double free pointer in debug mode
+  * Fix iconChanged() signal
+  * Fix segfault in updateBrowserGeometry()
+  * Fix WindowOpenDisposition invalid in GCC5
+
+ -- LiuLang <gsushzhsosgsu@gmail.com>  Wed, 09 Nov  2017 16:55:31 +0800
+
+qcef (1.0.0) stable; urgency=medium
+
+  * Initial release
+
+ -- LiuLang <gsushzhsosgsu@gmail.com>  Wed, 09 Aug 2017 09:55:36 +0800
