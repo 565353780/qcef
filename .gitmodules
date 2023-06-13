@@ -1,3 +1,0 @@
-[submodule "cef"]
-	path = cef
-	url = ../cef-binary
