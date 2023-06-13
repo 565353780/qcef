@@ -106,7 +106,7 @@ bool QCefDialogHandler::OnFileDialog(
 
   QFileDialog* dialog = new QFileDialog();
   dialog->setWindowTitle(title_str);
-  dialog->setConfirmOverwrite(mode & FILE_DIALOG_OVERWRITEPROMPT_FLAG);
+  // dialog->setConfirmOverwrite(mode & FILE_DIALOG_OVERWRITEPROMPT_FLAG);
   const QString path = default_file_path.ToString().c_str();
   QFileInfo info;
   if (path.isEmpty()) {
